@@ -78,7 +78,7 @@ const indicateurs = [
     status: "success",
     mainBtn: "Voir votre budget"
   }
-];
+] as const;
 
 export default function DiagnosticPage() {
   return (
